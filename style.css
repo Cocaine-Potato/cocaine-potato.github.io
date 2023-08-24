@@ -4,7 +4,7 @@
 }
 
 .big {
-    font-size: large;
+    font-size: larger;
 }
 
 .medium {
@@ -12,7 +12,7 @@
 }
 
 .small {
-    font-size: small;
+    font-size: smaller;
 }
 
 .Prism {
