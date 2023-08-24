@@ -1,0 +1,24 @@
+* {
+    color: white;
+    background-color: black;
+}
+
+.big {
+    font-size: large;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.small {
+    font-size: small;
+}
+
+.Prism {
+    font-family: "Tilt Prism", sans-serif;
+}
+
+.Signika {
+    font-family: "Signika Negative", sans-serif;
+}
