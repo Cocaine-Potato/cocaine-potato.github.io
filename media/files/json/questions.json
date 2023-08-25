@@ -1,12 +1,22 @@
 [
     {
+        "category": "random",
         "question": "someq",
-        "points": 250,
-        "category": "random"
+        "a": "test a",
+        "b": "test b",
+        "c": "test c",
+        "d": "test d",
+        "correct": "d",
+        "points": 250
     },
     {
+        "category": "random",
         "question": "otherq",
-        "points": 100,
-        "category": "random"
+        "a": "test a",
+        "b": "test b",
+        "c": "test c",
+        "d": "test d",
+        "correct": "d",
+        "points": 250
     }
 ]
