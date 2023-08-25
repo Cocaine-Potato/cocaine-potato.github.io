@@ -8,5 +8,5 @@ let m = Math;
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
-
-console.log(questions[getRndInteger(0, questions.length-1)].points)
+ql = questions.length
+console.log(questions[getRndInteger(0, ql-1)].points)
