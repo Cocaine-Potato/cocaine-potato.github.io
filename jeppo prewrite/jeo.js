@@ -122,8 +122,6 @@ let qa_c = new question(
     questions.a_c.points
 );
 
-
-
 let qb_a = new question(
     questions.b_a.question,
     questions.b_a.answer_a,
