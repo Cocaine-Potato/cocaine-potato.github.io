@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-subdomain": "^1.0.6",
+    "nodemon": "^3.1.0",
+    "open": "^9.1.0",
+    "vhost": "^3.0.2"
+  }
+}
