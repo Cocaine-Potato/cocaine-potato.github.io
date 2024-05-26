@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="image/x-icon" href="/Home/Assets/favicon.ico" rel="icon" sizes="128 128">
+    <link type="image/x-icon" href="../cdn/Assets/favicon.ico" rel="icon" sizes="128 128">
     <title>Home - CPI</title>
+    <script>
+        // Get the URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const redirectPath = urlParams.get('redirect');
+    
+        // Redirect
+        if (redirectPath != null) {
+            window.location.href = redirectPath;
+        }
+    </script>
 </head>
 <body>
     <p class="header">Helo:D</p>

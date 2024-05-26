@@ -1,1 +1,42 @@
-<!DOCTYPE html><script>window.location.href = "/Home/"</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        // Get the URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const redirectPath = urlParams.get('redirect');
+    
+        // Redirect
+        if (redirectPath) {
+            window.location.href = redirectPath;
+        } else {
+            // Default redirect if 'redirect' parameter is not provided
+            window.location.href = '/Home/';
+        }
+    </script>
+</head>
+<body>
+  <p>If you are not redirected automatically, There has been an error.</p>
+  <!-- <script type="text/javascript">
+
+    // function getParameterByName(name, url) {
+    //   if (!url) url = window.location.href;
+    //   name = name.replace(/[\[\]]/g, "\\$&");
+    //   var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    //       results = regex.exec(url);
+    //   if (!results) return null;
+    //   if (!results[2]) return '';
+    //   return decodeURIComponent(results[2].replace(/\+/g, " "));
+    // }
+    // function getParameterByName(name, url) {
+    //     if (!url) url = window.location.href;
+    //     s1 = url.replace("http://147.185.221.19:50359/?redirect=", "");
+    //     return s1
+    // }
+
+    // var redirectPath = getParameterByName('redirect');
+    // console.log(redirectPath)
+    //if(redirectPath != null) {window.location.href = "http://147.185.221.19:50359" + redirectPath;} else {window.location.href = "/Home/"}
+  </script> -->
+</body>
+</html>
